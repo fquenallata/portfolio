@@ -1,6 +1,6 @@
 import React from "react";
 
-import Image from "../../assets/about.png";
+import Image from "../../assets/About.png";
 import { navigation } from "../../data";
 import { Link } from "react-scroll";
 
