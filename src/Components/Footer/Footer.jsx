@@ -23,7 +23,7 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <p className="text-teal-200 text-xl">Franco Quenallata</p>
+            <p className="text-teal-200 text-xl">© Franco Quenallata</p>
           </div>
         </div>
       </div>

@@ -22,8 +22,6 @@ const Header = () => {
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
-        <h3>Franco Quenallata</h3>
-        {/* navbar */}
         <div className="hidden lg:block">
           <Navbar />
         </div>

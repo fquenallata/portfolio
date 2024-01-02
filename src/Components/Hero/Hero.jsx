@@ -28,6 +28,7 @@ const Hero = () => {
               start to finish. Focused on developing intuitive experiences that
               constantly grow and improve based on user metrics. <br />
               <b>
+                <br />
                 <i>Got something in mind?</i>
               </b>
             </p>
