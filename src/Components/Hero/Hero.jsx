@@ -13,17 +13,22 @@ const Hero = () => {
       <div className="container mx-auto h-full">
         <div className="flex items-center h-full pt-8">
           <div className="flex-1 flex flex-col items-center lg:items-start">
-            <p className="text-4xl text-accent mb-[22px]">
-              Hi, I'm Franco Quenallata 🙋‍♂️{" "}
-            </p>
-            <h1 className=" text-6xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]  ">
-              Full Stack Developer
+            <h1
+              className="text-4xl  md:text-3xl lg:text-4xl font-bold md:tracking-wide"
+              style={{
+                fontFamily: "Roboto Mono, sans-serif",
+                fontWeight: 590,
+              }}
+            >
+              F r a n c o - Q u e n a l l a t a
             </h1>
+
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-2xl text-center lg:text-left">
-              Being able to learn something every day by participating in
-              experiments and working on projects. <br />
+              GM, I'm Fran. I enjoy building dynamic, creative products from
+              start to finish. Focused on developing intuitive experiences that
+              constantly grow and improve based on user metrics. <br />
               <b>
-                <i>is a wonderful thing.It's not just a job, it's a passion.</i>
+                <i>Got something in mind?</i>
               </b>
             </p>
             <Link
@@ -35,9 +40,9 @@ const Hero = () => {
               offset={-70}
               className="transition-all duration-300"
             >
-              <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
+              <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all text-2xl">
                 {" "}
-                Contact Me!{" "}
+                Let's work together!{" "}
               </button>
             </Link>
           </div>

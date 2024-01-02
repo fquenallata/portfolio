@@ -7,7 +7,7 @@ function About() {
   const mainContainer = {
     backgroundImage: `url(${bg})`,
     backgroundSize: "cover",
-    padding: "20px",
+    padding: "44px",
   };
 
   return (
@@ -23,7 +23,6 @@ function About() {
                 boxShadow: "5px -5px 10px rgba(0, 0, 0, 0.15)",
               }}
             />
-            <p>hola</p>
           </div>
 
           <div className="flex flex-col items-ceter text-center lg:items-start lg:text-left">
@@ -41,18 +40,20 @@ function About() {
               </h2>
               <hr className="mb-2 border-t border-gray-500 border-1" />
               <p className="mb-6">
-                👨🏽‍💻 Full Stack Developer with the ability to create and optimize
-                websites and applications aimed at the end user in a scalable
-                and modularized way. <br />
+                Full Stack Developer skilled in creating and optimizing websites
+                and applications for end users in a scalable and modular manner.
                 <br />
-                📚 I like to investigate, solve problems, learn from others and
+                <br />
+                I like to investigate, solve problems, learn from others and
                 contribute ideas in order to achieve optimal results, that is
                 why in me you will find a developer with the ability to resolve
                 conflicts, willing to listen to ideas and contribute all my
-                knowledge to achieve the goals. proposed objectives. <br />
-                <br />I have experience in JavaScript, HTML, CSS languages and
-                also in technologies such as Node.js, Express, Sequelize,
-                PostgreSQL, React.js, Redux. VCS tool: Git.
+                knowledge to achieve the goals. proposed objectives.
+                <br />
+                <br />I am proficient in JavaScript, HTML, and CSS, with
+                hands-on experience in technologies such as Node.js, Express,
+                Sequelize, PostgreSQL, React.js, and Redux. Additionally, I am
+                well-versed in version control systems, particularly Git.
               </p>
             </div>
             <a
