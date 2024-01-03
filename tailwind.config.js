@@ -34,6 +34,8 @@ module.exports = {
           hover: "rgb(6 78 59)",
         },
         paragraph: "#878e99",
+        sweetYellow: "#fceea4",
+        yellow: "#f9c174",
       },
     },
   },

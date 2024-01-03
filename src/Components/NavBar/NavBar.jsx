@@ -1,4 +1,3 @@
-import React from "react";
 import { navigation } from "../../data";
 import { Link } from "react-scroll";
 
@@ -10,11 +9,11 @@ const NavBar = () => {
           return (
             <li
               key={index}
-              className="text-white hover:text-accent cursor-pointer"
+              className="text-white hover:text-sweetYellow cursor-pointer"
             >
               <Link
                 to={item.href}
-                activeClass="active"
+                activeClass="text-yellow"
                 spy={true}
                 smooth={true}
                 duration={500}
