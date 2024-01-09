@@ -36,6 +36,7 @@ module.exports = {
         paragraph: "#878e99",
         sweetYellow: "#fceea4",
         yellow: "#f9c174",
+        sweetWhite: "",
       },
     },
   },
